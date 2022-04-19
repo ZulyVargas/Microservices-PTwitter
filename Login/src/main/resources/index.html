@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter-Microservices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<font color="#1C2833" face="Verdana, Open Sans">
+    <h1>Twitter con Microservicios</h1>
+    <form>
+        <label for="message"></label>
+        <input type="text" class="form-control" placeholder="New message" id="message" minlength="1" maxlength="140" style="width : 400px;" >
+        <input type="button" id="tweet" value="Submit" onclick = app.saveTweet()>
+    </form>
+</font>
+</body>
+
+<script type="text/javascript" src="js/app.js" ></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</html>
