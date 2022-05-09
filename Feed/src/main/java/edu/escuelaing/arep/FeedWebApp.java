@@ -18,8 +18,7 @@ public class FeedWebApp {
             res.type("application/json");
 
             return new Gson().toJson(feed.getPosts());
-        }); 
-
+        });
     }
     
     static int getPort() {
